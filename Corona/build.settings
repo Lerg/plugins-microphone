@@ -1,0 +1,15 @@
+settings = {
+	orientation = {
+		default = 'portrait',
+		supported = {'portrait', 'portraitUpsideDown'}
+	},
+	android = {
+		usesPermissions = {'android.permission.READ_EXTERNAL_STORAGE'}
+	},
+	iphone = {
+		xcassets = 'Images.xcassets',
+		plist = {
+			UILaunchStoryboardName = "LaunchScreen",
+		}
+	}
+}
