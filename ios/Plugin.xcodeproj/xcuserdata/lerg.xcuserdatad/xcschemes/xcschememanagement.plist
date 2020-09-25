@@ -4,20 +4,18 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>plugin_library.xcscheme</key>
+		<key>plugin_library.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
-		<key>plugin_microphone.xcscheme</key>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A4E253B5166D6FB300DCDC2C</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>plugin_microphone.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

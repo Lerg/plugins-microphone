@@ -36,8 +36,6 @@
 	<array>
 		<string>armv7</string>
 	</array>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Record micrphone audio for processing.</string>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleBlackTranslucent</string>
 </dict>

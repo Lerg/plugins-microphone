@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4E253C9166D716900DCDC2C /* plugin_microphone.m in Sources */ = {isa = PBXBuildFile; fileRef = A447B617165D734C009EA762 /* plugin_microphone.m */; };
-		CC4B06D6216FE244004F24C0 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4B06D4216FE244004F24C0 /* Utils.m */; };
-		CC4B06D7216FE244004F24C0 /* LuaUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4B06D5216FE244004F24C0 /* LuaUtils.m */; };
+		CC513F9E2516AA7700230103 /* LuaUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CC513F9A2516AA7600230103 /* LuaUtils.m */; };
+		CC513F9F2516AA7700230103 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CC513F9B2516AA7600230103 /* Utils.m */; };
+		CC513FA02516AA7700230103 /* plugin_microphone.m in Sources */ = {isa = PBXBuildFile; fileRef = CC513F9D2516AA7700230103 /* plugin_microphone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,12 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A447B617165D734C009EA762 /* plugin_microphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = plugin_microphone.m; path = Plugin/plugin_microphone.m; sourceTree = "<group>"; };
 		A4E253B6166D6FB300DCDC2C /* libplugin_microphone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libplugin_microphone.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC4B06D2216FE244004F24C0 /* LuaUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LuaUtils.h; path = "../../plugins-shared/ios/LuaUtils.h"; sourceTree = "<group>"; };
-		CC4B06D3216FE244004F24C0 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = Plugin/Utils.h; sourceTree = "<group>"; };
-		CC4B06D4216FE244004F24C0 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = Plugin/Utils.m; sourceTree = "<group>"; };
-		CC4B06D5216FE244004F24C0 /* LuaUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LuaUtils.m; path = "../../plugins-shared/ios/LuaUtils.m"; sourceTree = "<group>"; };
+		CC513F992516AA7600230103 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = Plugin/Utils.h; sourceTree = "<group>"; };
+		CC513F9A2516AA7600230103 /* LuaUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LuaUtils.m; path = "../../plugins-shared/ios/LuaUtils.m"; sourceTree = "<group>"; };
+		CC513F9B2516AA7600230103 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = Plugin/Utils.m; sourceTree = "<group>"; };
+		CC513F9C2516AA7600230103 /* LuaUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LuaUtils.h; path = "../../plugins-shared/ios/LuaUtils.h"; sourceTree = "<group>"; };
+		CC513F9D2516AA7700230103 /* plugin_microphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = plugin_microphone.m; path = Plugin/plugin_microphone.m; sourceTree = "<group>"; };
 		F572F81A1EE0705B001BC814 /* CoronaNative.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CoronaNative.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,11 +48,11 @@
 		A447B609165D72A6009EA762 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				CC4B06D2216FE244004F24C0 /* LuaUtils.h */,
-				CC4B06D5216FE244004F24C0 /* LuaUtils.m */,
-				CC4B06D3216FE244004F24C0 /* Utils.h */,
-				CC4B06D4216FE244004F24C0 /* Utils.m */,
-				A447B617165D734C009EA762 /* plugin_microphone.m */,
+				CC513F9C2516AA7600230103 /* LuaUtils.h */,
+				CC513F9A2516AA7600230103 /* LuaUtils.m */,
+				CC513F9D2516AA7700230103 /* plugin_microphone.m */,
+				CC513F992516AA7600230103 /* Utils.h */,
+				CC513F9B2516AA7600230103 /* Utils.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -109,15 +109,15 @@
 		A484111015114F700074BD57 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 0820;
 			};
 			buildConfigurationList = A484111315114F700074BD57 /* Build configuration list for PBXProject "Plugin" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
-				Base,
 			);
 			mainGroup = A484110E15114F700074BD57;
 			productRefGroup = A484111A15114F700074BD57 /* Products */;
@@ -152,9 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC4B06D7216FE244004F24C0 /* LuaUtils.m in Sources */,
-				A4E253C9166D716900DCDC2C /* plugin_microphone.m in Sources */,
-				CC4B06D6216FE244004F24C0 /* Utils.m in Sources */,
+				CC513F9E2516AA7700230103 /* LuaUtils.m in Sources */,
+				CC513F9F2516AA7700230103 /* Utils.m in Sources */,
+				CC513FA02516AA7700230103 /* plugin_microphone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,23 +166,14 @@
 			baseConfigurationReference = F572F81A1EE0705B001BC814 /* CoronaNative.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -207,7 +198,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -219,23 +210,14 @@
 			baseConfigurationReference = F572F81A1EE0705B001BC814 /* CoronaNative.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -252,7 +234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -263,7 +245,6 @@
 		A4E253C0166D6FB300DCDC2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				DSTROOT = /tmp/plugin_library.dst;
@@ -279,7 +260,6 @@
 		A4E253C1166D6FB300DCDC2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				DSTROOT = /tmp/plugin_library.dst;

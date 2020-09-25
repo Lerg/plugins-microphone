@@ -76,7 +76,6 @@ static int set(lua_State *L) {return [plugin set:L];}
 	luaL_openlib(L, plugin_name, lua_functions, 1);
 
 	[Utils getDirPointers:L];
-	[Utils updateLuaState:L];
 	[Utils setTag:@"plugin.microphone"];
 
 	CoronaLuaPushRuntime(L);
@@ -135,7 +134,7 @@ static int set(lua_State *L) {return [plugin set:L];}
 # pragma mark - Lua functions -
 
 -(int)on_enter_frame:(lua_State*)L {
-	[Utils updateLuaState:L];
+	[Utils executeTasks:L];
 	return 0;
 }
 
